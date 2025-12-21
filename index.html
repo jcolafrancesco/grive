@@ -1,1 +1,205 @@
-<img src="Screenshot from 2025-12-04 14-48-32.png">
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GRIVE AI — Coming Soon</title>
+  <meta name="description" content="GRIVE AI — a teaser page before company launch." />
+
+  <style>
+    :root{
+      --bg: #ffffff;
+      --text: #0e0e0e;
+      --muted: #4a4a4a;
+      --card: #f3f0ee;     /* warm light gray like your reference */
+      --border: #e6e1dd;
+      --shadow: 0 12px 28px rgba(0,0,0,0.06);
+      --pillbg: #ffffff;
+      --pillborder: #dfd8d4;
+    }
+
+    *{ box-sizing:border-box; }
+    html,body{ height:100%; }
+
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    .wrap{
+      min-height:100%;
+      display:grid;
+      place-items:center;
+      padding: 40px 16px;
+    }
+
+    .card{
+      width: min(900px, 100%);
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 28px;
+      box-shadow: var(--shadow);
+    }
+
+    header{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap: 16px;
+      flex-wrap:wrap;
+      margin-bottom: 18px;
+    }
+
+    .brand{
+      display:grid;
+      gap: 6px;
+    }
+
+    .brand h1{
+      margin:0;
+      font-size: 28px;
+      letter-spacing: 0.12em;
+      font-weight: 800;
+    }
+
+    .brand .tag{
+      margin:0;
+      color: var(--muted);
+      font-size: 14px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      font-weight: 650;
+    }
+
+    .pill{
+      display:inline-block;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: var(--pillbg);
+      border: 1px solid var(--pillborder);
+      font-size: 13px;
+      color: var(--text);
+      letter-spacing: 0.03em;
+      white-space: nowrap;
+    }
+
+    .divider{
+      height: 1px;
+      background: var(--border);
+      margin: 18px 0 22px;
+    }
+
+    .hero{
+      display:grid;
+      grid-template-columns: 340px 1fr;
+      gap: 22px;
+      align-items:center;
+    }
+
+    @media (max-width: 760px){
+      .hero{ grid-template-columns: 1fr; }
+    }
+
+    figure{
+      margin:0;
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 14px;
+      display:grid;
+      place-items:center;
+    }
+
+    img{
+      max-width: 100%;
+      height:auto;
+      display:block;
+    }
+
+    .copy h2{
+      margin:0 0 10px;
+      font-size: 22px;
+      font-weight: 750;
+    }
+
+    .copy p{
+      margin:0 0 10px;
+      color: var(--muted);
+      line-height: 1.55;
+      font-size: 15px;
+    }
+
+    .meta{
+      margin-top: 16px;
+      display:flex;
+      gap: 10px;
+      flex-wrap:wrap;
+    }
+
+    footer{
+      margin-top: 20px;
+      padding-top: 14px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 12px;
+      display:flex;
+      justify-content:space-between;
+      gap: 10px;
+      flex-wrap:wrap;
+    }
+
+    a{
+      color: inherit;
+      text-decoration: none;
+      border-bottom: 1px solid rgba(0,0,0,0.25);
+    }
+    a:hover{ border-bottom-color: rgba(0,0,0,0.55); }
+  </style>
+</head>
+
+<body>
+  <main class="wrap">
+    <section class="card" aria-label="GRIVE AI teaser">
+      <header>
+        <div class="brand">
+          <h1>GRIVE AI</h1>
+          <p class="tag">Company creation — in progress</p>
+        </div>
+        <div class="pill" aria-label="Status">Coming soon</div>
+      </header>
+
+      <div class="divider" role="presentation"></div>
+
+      <div class="hero">
+        <figure>
+          <!-- Put the image file next to this HTML and name it: grive-bird-transparent.png -->
+          <img src="grive-bird.png" alt="Low-poly bird emblem for GRIVE AI" />
+        </figure>
+
+        <div class="copy">
+          <h2>Something is taking flight.</h2>
+          <p>
+            GRIVE AI is being built. This page is a placeholder while the company is formed
+            and the first public materials are prepared.
+          </p>
+          <p>Check back soon.</p>
+
+          <div class="meta" aria-label="Highlights">
+            <span class="pill">Stealth mode</span>
+            <span class="pill">Outcome-oriented</span>
+            <span class="pill">Launch page incoming</span>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <span>© 2025 GRIVE AI</span>
+        <span>Contact: <a href="mailto:hello@grive.ai">hello@grive.ai</a></span>
+      </footer>
+    </section>
+  </main>
+</body>
+</html>
