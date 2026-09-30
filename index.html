@@ -1,205 +1,53 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>GRIVE AI — Coming Soon</title>
-  <meta name="description" content="GRIVE AI — a teaser page before company launch." />
-
-  <style>
-    :root{
-      --bg: #ffffff;
-      --text: #0e0e0e;
-      --muted: #4a4a4a;
-      --card: #f3f0ee;     /* warm light gray like your reference */
-      --border: #e6e1dd;
-      --shadow: 0 12px 28px rgba(0,0,0,0.06);
-      --pillbg: #ffffff;
-      --pillborder: #dfd8d4;
-    }
-
-    *{ box-sizing:border-box; }
-    html,body{ height:100%; }
-
-    body{
-      margin:0;
-      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
-      background: var(--bg);
-      color: var(--text);
-    }
-
-    .wrap{
-      min-height:100%;
-      display:grid;
-      place-items:center;
-      padding: 40px 16px;
-    }
-
-    .card{
-      width: min(900px, 100%);
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 14px;
-      padding: 28px;
-      box-shadow: var(--shadow);
-    }
-
-    header{
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      gap: 16px;
-      flex-wrap:wrap;
-      margin-bottom: 18px;
-    }
-
-    .brand{
-      display:grid;
-      gap: 6px;
-    }
-
-    .brand h1{
-      margin:0;
-      font-size: 28px;
-      letter-spacing: 0.12em;
-      font-weight: 800;
-    }
-
-    .brand .tag{
-      margin:0;
-      color: var(--muted);
-      font-size: 14px;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-      font-weight: 650;
-    }
-
-    .pill{
-      display:inline-block;
-      padding: 8px 12px;
-      border-radius: 999px;
-      background: var(--pillbg);
-      border: 1px solid var(--pillborder);
-      font-size: 13px;
-      color: var(--text);
-      letter-spacing: 0.03em;
-      white-space: nowrap;
-    }
-
-    .divider{
-      height: 1px;
-      background: var(--border);
-      margin: 18px 0 22px;
-    }
-
-    .hero{
-      display:grid;
-      grid-template-columns: 340px 1fr;
-      gap: 22px;
-      align-items:center;
-    }
-
-    @media (max-width: 760px){
-      .hero{ grid-template-columns: 1fr; }
-    }
-
-    figure{
-      margin:0;
-      background: #ffffff;
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 14px;
-      display:grid;
-      place-items:center;
-    }
-
-    img{
-      max-width: 100%;
-      height:auto;
-      display:block;
-    }
-
-    .copy h2{
-      margin:0 0 10px;
-      font-size: 22px;
-      font-weight: 750;
-    }
-
-    .copy p{
-      margin:0 0 10px;
-      color: var(--muted);
-      line-height: 1.55;
-      font-size: 15px;
-    }
-
-    .meta{
-      margin-top: 16px;
-      display:flex;
-      gap: 10px;
-      flex-wrap:wrap;
-    }
-
-    footer{
-      margin-top: 20px;
-      padding-top: 14px;
-      border-top: 1px solid var(--border);
-      color: var(--muted);
-      font-size: 12px;
-      display:flex;
-      justify-content:space-between;
-      gap: 10px;
-      flex-wrap:wrap;
-    }
-
-    a{
-      color: inherit;
-      text-decoration: none;
-      border-bottom: 1px solid rgba(0,0,0,0.25);
-    }
-    a:hover{ border-bottom-color: rgba(0,0,0,0.55); }
-  </style>
-</head>
-
-<body>
-  <main class="wrap">
-    <section class="card" aria-label="GRIVE AI teaser">
-      <header>
-        <div class="brand">
-          <h1>GRIVE AI</h1>
-          <p class="tag">Company creation — in progress</p>
-        </div>
-        <div class="pill" aria-label="Status">Coming soon</div>
-      </header>
-
-      <div class="divider" role="presentation"></div>
-
-      <div class="hero">
-        <figure>
-          <!-- Put the image file next to this HTML and name it: grive-bird-transparent.png -->
-          <img src="grive-bird.png" alt="Low-poly bird emblem for GRIVE AI" />
-        </figure>
-
-        <div class="copy">
-          <h2>Something is taking flight.</h2>
-          <p>
-            GRIVE AI is being built. This page is a placeholder while the company is formed
-            and the first public materials are prepared.
-          </p>
-          <p>Check back soon.</p>
-
-          <div class="meta" aria-label="Highlights">
-            <span class="pill">Stealth mode</span>
-            <span class="pill">Outcome-oriented</span>
-            <span class="pill">Launch page incoming</span>
-          </div>
-        </div>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#080e0b">
+    <meta name="description" content="GRIVE AI. Engineered for uncertainty.">
+    <meta name="robots" content="noindex, nofollow">
+    <meta property="og:title" content="GRIVE AI">
+    <meta property="og:description" content="Engineered for uncertainty.">
+    <meta property="og:type" content="website">
+    <title>GRIVE AI | Engineered for uncertainty</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2031181%2021373%22%20fill%3D%22%23f2f4f0%22%3E%3Cpath%20d%3D%22M0%201090%20L4420%201029%20C5389%20787%205722%200%206963%200%20C8779%200%2010202%20938%2010263%202149%20L10263%204359%20L21100%2013593%20L20465%2013350%20L9990%206751%20L9657%2011140%20C13229%2012836%2017710%2014470%2022826%2015984%20L24400%2016378%20L31181%2020767%20L29849%2021373%20L22826%2016438%20L15803%2016378%20C14955%2016499%2014380%2016953%2013653%2017952%20L11988%2020192%20L14380%2020404%20L14380%2020919%20L6993%2020828%20L6993%2020343%20L9990%2020071%20L11504%2016378%20C8234%2015348%205994%2014047%204632%2012261%20C2846%2010020%203058%207689%203875%204844%20C4359%203330%204359%203179%203300%202513%20L0%201090%20Z%22%2F%3E%3C%2Fsvg%3E">
+    <link rel="stylesheet" href="styles.css">
+    <script src="motion.js" defer></script>
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="media-field">
+        <picture class="signal-still">
+          <source media="(max-aspect-ratio: 1/1)" srcset="assets/signal-waves-mobile-poster.webp" width="1080" height="1916">
+          <img class="signal-image" src="assets/signal-waves-loop-poster.webp" alt="" fetchpriority="high" width="1916" height="1080">
+        </picture>
+        <video class="signal-video" id="signal-video" data-src="assets/signal-waves-loop.mp4" data-src-portrait="assets/signal-waves-mobile.mp4" data-poster="assets/signal-waves-loop-poster.webp" data-poster-portrait="assets/signal-waves-mobile-poster.webp" muted loop playsinline preload="none" disablepictureinpicture tabindex="-1" width="1916" height="1080"></video>
       </div>
-
+    </div>
+    <div class="page">
+      <header class="header">
+        <div class="brand" aria-label="GRIVE AI">
+          <img src="assets/grive-mark.svg" width="48" height="33" alt="">
+          <span>GRIVE AI</span>
+        </div>
+        <span class="origin" aria-label="Europe"><img src="assets/europe.svg" width="24" height="16" alt=""><span>Europe</span></span>
+      </header>
+      <main>
+        <div class="intro">
+          <h1><span>Engineered</span> <span>for uncertainty.</span></h1>
+        </div>
+      </main>
       <footer>
-        <span>© 2026 GRIVE AI</span>
-        <span>Contact: <a href="mailto:hello@grive.ai">hello@grive.ai</a></span>
+        <small>&copy; 2026 GRIVE AI</small>
+        <div class="footer-actions">
+          <a class="contact" href="mailto:hello@grive.ai" aria-label="Contact GRIVE AI at hello@grive.ai">hello@grive.ai</a>
+          <button class="motion-toggle" type="button" id="motion-toggle" aria-label="Play background video" aria-controls="signal-video" hidden>
+            <svg class="motion-icon icon-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M5 3v10M11 3v10" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+            <svg class="motion-icon icon-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M5 3l8 5-8 5z" fill="currentColor"/></svg>
+            <span class="motion-label">Play</span>
+          </button>
+        </div>
       </footer>
-    </section>
-  </main>
-</body>
+    </div>
+  </body>
 </html>
